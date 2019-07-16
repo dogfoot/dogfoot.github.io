@@ -14,7 +14,7 @@ tags:
 ### centos7 이미지 다운로드
 #### 이미지 탐색
 ```bash
-PS #########> docker search centos
+PS ☆☆☆☆☆> docker search centos
 NAME                               DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
 centos                             The official build of CentOS.                   5454                [OK]
 ansible/centos7-ansible            Ansible on Centos7                              122                                     [OK]
@@ -25,7 +25,7 @@ centos/mysql-57-centos7            MySQL 5.7 SQL database server                
 
 #### 이미지 다운로드
 ```bash
-PS #########> docker pull centos:7
+PS ☆☆☆☆☆> docker pull centos:7
 7: Pulling from library/centos
 8ba884070f61: Pull complete
 Digest: sha256:a799dd8a2ded4a83484bbae769d97655392b3f86533ceb7dd96bbac929809f3c
@@ -35,7 +35,7 @@ Status: Downloaded newer image for centos:7
 #### 컨테이너 생성 및 이미지 실행
 `docker run <옵션> <이미지 이름, ID> <명령> <매개 변수>`
 ```bash
-PS #########> docker run -it --name test centos:7 /bin/bash
+PS ☆☆☆☆☆> docker run -it --name test centos:7 /bin/bash
 [root@ddb7bd6fd170 /]#
 ```
 * -i : 표준 입력(stdin)을 활성화하며 컨테이너와 연결(attach)되어 있지 않더라도 표준 입력을 유지합니다.
